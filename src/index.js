@@ -1,8 +1,9 @@
-import './styles/main.css';
+import './styles/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import HelloWrold from './components/helloWorld';
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
+    <HelloWrold/>,
     document.getElementById('app')
   );
